@@ -42,7 +42,7 @@ var Controls = React.createClass({
     return () => {
       this.props.onStatusChange(newStatus);
     }
-  },
+  },  
   render: function () {
     var {countdownStatus} = this.props;
     var renderStartStopButton = () => {
